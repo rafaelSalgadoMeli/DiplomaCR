@@ -1,33 +1,31 @@
 package dto;
 
 public class DiplomaDTO {
-    private String name;
-    private Double average;
-    private String message;
+    private String nombre;
+    private Double promedio;
+    private String mensaje;
 
-
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public Double getAverage() {
-        return average;
+    public Double getPromedio() {
+        return promedio;
     }
 
-    public void setAverage(Double average) {
-        this.average = average;
+    public void setPromedio(Double promedio) {
+        this.promedio = promedio;
     }
 
-    public String getMessage() {
-        return message;
+    public String getMensaje() {
+        return mensaje;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
     }
 }
-
